@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', 'Arial', sans-serif;
+    background-color: #e77f52;
+}
+
+.contendor_poke_cartas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 40px 0;
+}
+
+.barra_menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin:30px 10px 30px 10px;
+
+}
+
+.logo{
+    border-radius: 50%;
+}

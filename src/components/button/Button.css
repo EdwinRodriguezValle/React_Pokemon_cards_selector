@@ -1,0 +1,25 @@
+.botones {
+    padding: 10px 10px;
+    width: 200px;
+    border: 2px solid #0e0e56;
+    background-color: #165eac;
+    color: black;
+    border-radius: 12px;
+    font-family: 'Rubik', 'Arial', sans-serif;
+   outline: none;
+
+}
+
+.botones:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.botones:disabled {
+    background-color: darkgray;
+    cursor: not-allowed;
+}
+
+.botones + .botones {
+    margin-left: 15px;
+}
